@@ -19,8 +19,8 @@ Presented in the form of iPython Notebooks and readme markdown files. <br>
   </tr>
         <tr>
     <td><a href="https://github.com/vkikhtenko/educational_projects/tree/master/a_project_for_wikishop">A project for Wikishop</a></td>
-    <td>In order to optimize production costs, the steelworks of So Hardening Steel Ltd. decided to reduce the electricity consumption during the steel processing phase. You will have to build a model that predicts the temperature of the steel.</td>
-    <td>Python, Pandas, Matplotlib, Seaborn, exploratory data analysis, data visualization, data preprocessing, math, machine learning, gradient boosting, numpy</td>
+    <td>An online store launches a new service. Now users can edit and add product descriptions, just like in wiki communities. That is, clients offer their edits and comment on the changes of others. The store needs a tool that will search for toxic comments and send them for moderation.</td>
+    <td>optuna, nltk, re, catboost, pandas, matplotlib, numpy, scipy, sklearn, worldcloud</td>
   </tr>
       <tr>
     <td><a href="https://github.com/vkikhtenko/educational_projects/tree/master/california_real_estate">California real estate</a></td>
