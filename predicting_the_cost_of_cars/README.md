@@ -1,33 +1,10 @@
-# Determining the cost of cars
+## Determining the cost of cars:
 
-The car sales service is developing an application to attract new customers. It allows you to quickly find out the market value of your car. Historical data is at your disposal: technical specifications, complete sets and prices of cars. You need to build a model to determine the cost. 
+The taxi company has collected historical data on taxi orders at airports. To attract more drivers during peak periods, you need to predict the number of taxi orders for the next hour.
 
-Important to the customer:
+## Used libraries:
 
-- prediction quality;
-- prediction speed;
-- training time.
-
-### Features
-
-* DateCrawled — date when the questionnaire was downloaded from the database
-* VehicleType — type of car body
-* RegistrationYear — the year of registration of the car
-* Gearbox — type of gearbox
-* Power — power (hp)
-* Model — car model
-* Kilometer — mileage (km)
-* RegistrationMonth — month of car registration
-* FuelType — fuel type
-* Brand — the brand of the car
-* Repaired — was the car under repair or not
-* DateCreated — date of creation of the questionnaire
-* NumberOfPictures — the number of photos of the car
-* PostalCode — postal code of the questionnaire owner (user)
-* lastSeen — the date of the user's last activity
-* Target feature
-* Price — price (euro)
-
+lightgbm, matplotlib, numpy, pandas, phik,  plotly, seaborn, sklearn
 
 ## Conclusions
 
