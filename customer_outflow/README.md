@@ -1,48 +1,14 @@
-Customer outflow
+## Customer outflow:
+
 Customers began to leave the bank. Every month. A little, but noticeable. Bank marketers have found that it is cheaper to retain current customers than to attract new ones.
+It is necessary to predict whether the client will leave the bank in the near future or not.
 
-It is necessary to predict whether the client will leave the bank in the near future or not. You are presented with historical data on customer behavior and termination of contracts with the bank.
+## Used libraries:
 
-Build a model with an extremely high value of F1-measures. To pass the project successfully, you need to bring the metric to 0.59. Check the F1 measure on the test sample yourself.
+matplotlib, numpy, pandas, phik,  plotly, seaborn, sklearn, tqdm
 
-Additionally, measure AUC-ROC, compare its value with the F1 measure.
+## Conclusions on the project:
 
-Data source: https://www.kaggle.com/barelydedicated/bank-customer-churn-modeling
-
-Features
-
-RowNumber — an index of the row in the data
-
-CustomerId — the unique identifier of the client
-
-Surname
-
-CreditScore — credit rating
-
-Geography — country of residence
-
-Gender
-
-Age
-
-Tenure — how many years has a person been a customer of the bank
-
-Balance — account balance
-
-NumOfProducts — the number of bank products used by the customer
-
-HasCrCard — availability of a credit card
-
-IsActiveMember — client activity
-
-EstimatedSalary — estimated salary
-
-Target
-
-Exited — the fact of the client's leaving
-
-
-Conclusions on the project
 I started the project by uploading data. Saved the data to the data variable.
 Then I moved on to data analysis.
 
