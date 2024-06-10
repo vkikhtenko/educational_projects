@@ -1,13 +1,12 @@
-Educational project: exploratory data analysis. Research of apartment sale ads
-
-Description of the project:
+## Exploratory data analysis. Research of apartment sale ads:
 
 You have at your disposal the data of the real estate sales service — an archive of ads for the sale of apartments in St. Petersburg and neighboring settlements for several years. You need to learn how to determine the market value of real estate. To do this, conduct a exploratory analysis of the data and set the parameters that affect the price of the objects. This will allow you to build an automated system: it will track down anomalies and fraudulent activity.
 
-Two types of data are available for each apartment for sale. The first ones are entered by the user, the second ones are obtained automatically based on cartographic data. For example, the distance to the center, airport and other facilities — this data is automatically obtained from geoservices. The number of parks and reservoirs is also filled in without the user's participation.
+## Used libraries:
 
+matplotlib, numpy, pandas, sklearn
 
-Conclusions
+## Conclusions:
 
 In this project, the following tasks were set: to perform data preprocessing and study them in order to find interesting features and dependencies that exist in the real estate market.
 
