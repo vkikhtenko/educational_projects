@@ -1,8 +1,9 @@
 # Predicting the cost of housing
 
-## Description of the project
+In the project, you need to train a linear regression model based on housing data in California in 1990. Based on the data, it is necessary to predict the median cost of a house in a residential area.
 
-In the project, you need to train a linear regression model based on housing data in California in 1990. Based on the data, it is necessary to predict the median cost of a house in a residential area. Train the model and make predictions on the test sample. To assess the quality of the model, use the RMSE, MAE and R2 metrics.
+## Used libraries:
+numpy, pandas, phik, plotly, pyspark, seaborn, matplotlib
 
 ## Conclusion:
 Started by installing and importing the necessary libraries
@@ -24,5 +25,3 @@ Built two models:
   2. without categorical
 
 The metrics turned out to be comparable, but the first model with categorical features turned out to be slightly better
-
-
