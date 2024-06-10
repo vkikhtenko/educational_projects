@@ -1,37 +1,14 @@
-# Forecasting the outflow of customers in the hotel chain
-# Description of the project
+## Forecasting the outflow of customers in the hotel chain
+
 The client of this research is a hotel chain.
-
 To attract customers, this hotel chain has added to its website the ability to book a room without prepayment. However, if the customer cancelled the reservation, the company suffered losses. The hotel staff could, for example, buy groceries for the arrival of a guest or simply not have time to find another customer.
+To solve this problem, you need to develop a system that predicts the cancellation of the reservation.
 
-To solve this problem, you need to develop a system that predicts the cancellation of the reservation. If the model shows that the reservation will be cancelled, the client is invited to make a deposit. The deposit amount is 80% of the room rate for one day and the cost of a one—time cleaning. The money will be debited from the customer's account if they cancel the reservation anyway.
+## Used libraries
 
-# Business metrics and other data
-The main business metric for any hotel chain is its profit. The profit of the hotel is the difference between the cost of a room for all nights and the cost of maintenance: both during the preparation of the room and during the stay of the guest.
+matplotlib, numpy, pandas, phik, seaborn, shap, sklearn, statistics, statmodels, tqdm
 
-The hotel has several types of rooms. Depending on the type of room, the cost per night is assigned. There are also cleaning costs. If the client has rented a room for a long time, then they are cleaned every two days.
-
-The cost of the hotel rooms:
-
-Category A: 1,000 per night, one—time service — 400; 
-
-Category B: per night — 800, one—time service - 350; 
-
-Category C: per night — 600, one—time service - 350; 
-
-Category D: per night — 550, one—time service - 150; 
-
-Category E: 500 per night, one—time service — 150; 
-
-Category F: per night — 450, one—time service - 150; 
-
-Category G: 350 per night, one—time service — 150.
-
-The hotel's pricing policy uses seasonal coefficients: in spring and autumn prices increase by 20%, in summer — by 40%. The hotel's losses in case of cancellation of the room reservation are the cost of one cleaning and one night, taking into account the seasonal coefficient.
-
-The budget for the development of the forecasting system is 400,000. At the same time, it should be taken into account that the implementation of the model should pay off during the test period. Development costs should be less than the revenue that the system will bring to the company.
-
-# General conclusion
+## General conclusion
 
 ### Step 1
 
