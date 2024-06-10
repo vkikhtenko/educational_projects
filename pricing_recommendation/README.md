@@ -1,6 +1,6 @@
 ## Exploratory data analysis. Research of apartment sale ads:
 
-You have at your disposal the data of the real estate sales service — an archive of ads for the sale of apartments in St. Petersburg and neighboring settlements for several years. You need to learn how to determine the market value of real estate. To do this, conduct a exploratory analysis of the data and set the parameters that affect the price of the objects. This will allow you to build an automated system: it will track down anomalies and fraudulent activity.
+You have at your disposal data on the behavior of customers who have already switched to these tariffs. You need to build a model for the classification task that will select the appropriate tariff.
 
 ## Used libraries:
 
