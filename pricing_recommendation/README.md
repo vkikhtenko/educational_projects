@@ -1,6 +1,12 @@
-This is an educational project: pricing recommendations
+## Exploratory data analysis. Research of apartment sale ads:
 
-You have at your disposal data on the behavior of customers who have already switched to these tariffs. You need to build a model for the classification task that will select the appropriate tariff. You won't need to pre—process the data - you've already done it. Build a model with the highest accuracy value possible. To pass the project successfully, you need to bring the proportion of correct answers to at least 0.75. Check the accuracy on the test sample yourself.
+You have at your disposal the data of the real estate sales service — an archive of ads for the sale of apartments in St. Petersburg and neighboring settlements for several years. You need to learn how to determine the market value of real estate. To do this, conduct a exploratory analysis of the data and set the parameters that affect the price of the objects. This will allow you to build an automated system: it will track down anomalies and fraudulent activity.
+
+## Used libraries:
+
+matplotlib, numpy, pandas, plotly, seaborn, sklearn, tqdm
+
+## Conclusion:
 
 I uploaded the data and evaluated the available information using the .info() and .describe() methods. I built histograms to estimate the distribution of data. I evaluated the correlation between the predictors and then decided to delete the number of calls due to the high correlation with the number of minutes.
 
