@@ -1,6 +1,6 @@
 ## Determining the cost of cars:
 
-The taxi company has collected historical data on taxi orders at airports. To attract more drivers during peak periods, you need to predict the number of taxi orders for the next hour.
+The car sales service is developing an application to attract new customers. It allows you to quickly find out the market value of your car. You need to build a model to determine the cost.
 
 ## Used libraries:
 
