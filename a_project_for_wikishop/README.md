@@ -1,5 +1,6 @@
 # A project for Wikishop
-Trained the model to classify comments into positive and negative ones
+An online store launches a new service. Now users can edit and add product descriptions, just like in wiki communities. That is, clients offer their edits and comment on the changes of others. The store needs a tool that will search for toxic comments and send them for moderation. 
+Train the model to classify comments into positive and negative ones. You have at your disposal a data set with markup on the toxicity of edits.
 
 # Used libraries
 optuna, nltk, re, catboost, pandas, matplotlib, numpy, scipy, sklearn, worldcloud
